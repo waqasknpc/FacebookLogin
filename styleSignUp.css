@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #385898;
+    
+}
+
+
+.container {
+  /* border: px solid; */
+  background-color: #FFFFFF;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  
+  }
+
+  .close{
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    z-index: 2;
+  }
+
+  .close button a{
+    color: #000;
+  }
+
+  .close button{
+    border: none;
+    font-size: 22px;
+    background-color: #fff;
+  }
+
+  .heading h1{
+    color: #1c1e21;
+    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+    font-size: 32px;
+    line-height: 38px;
+    padding-left: 10px;
+  }
+
+  .heading p{
+    color: #606770;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    padding-left: 10px;
+    
+  }
+
+  .form{
+    background-color: #fff;
+    border-radius: 0 0 8px 8px;
+    border-top: 1px solid #dadde1;
+    box-sizing: border-box;
+    padding: 16px;
+    position: relative;
+    width: 432px;
+  }
+  .name{
+    display: flex;
+    justify-content: space-between;
+  }
+  #fName,#sName{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 16px;
+    padding: 11px;
+    width: 170px;
+    border-color: #ccd0d5;
+    border-radius: 5px;
+    border: 1px solid #ccd0d5;
+    position: relative;
+    margin-bottom: 5px;
+  }
+#mobileEmail, #pass{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 16px;
+    padding: 11px;
+    border-color: #ccd0d5;
+    border-radius: 5px;
+    width: 375px;
+    border: 1px solid #ccd0d5;
+    position: relative;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.label{
+    color: #606770;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-top: 2px;
+    text-align: left;
+}
+
+select{
+    border-radius: 4px;
+    color: #1c1e21;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    height: 36px;
+    line-height: 20px;
+    width: 125px;
+    background-color: #fff;
+    border: 1px solid #ccd0d5;
+}
+.gender-main{
+    /* display: flex;
+    flex-wrap: wrap; */
+    /* margin: -8px -6px -6px;  */
+    /* padding: 0 28px 0 10px; */
+    width: 411px;
+}
+.gender{
+    box-sizing: border-box;
+    color: #1c1e21;
+    display: inline-block;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 36px;
+    /* margin: 1px; */
+    width: 125px;
+    background-color: #fff;
+    border: 1px solid #ccd0d5;
+    border-radius: 4px;
+    color: #1c1e21;
+    position: relative;
+}
+.gender-main label{
+    box-sizing: border-box;
+    color: #1c1e21;
+    display: inline-block;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 36px;
+    padding: 0 28px 0 10px;
+    width: 100%;
+    
+}
+
+.gender-main input{
+    height: 36px;
+    margin: 0;
+    position: absolute;
+    right: 10px;
+    top: 0;
+}
+
+.firstpara p{
+    color: #777;
+    font-size: 11px;
+    margin: 1em 0;
+}
+
+.secondpara p{
+    color: #777;
+    font-size: 11px;
+    margin: 1em 0;
+}
+
+.button button{
+    background: none;
+    background-color: #00a400;
+    border: none;
+    border-radius: 6px;
+    box-shadow: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    height: 36px;
+    overflow: hidden;
+    padding: 0 32px;
+    text-shadow: none;
+    border: 1px solid;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    letter-spacing: 1px;
+    
+    
+    
+}
+.button button:hover{
+    background-color: #5abd5a;
+}
+
+.button{
+   display: flex;
+   justify-content: center;
+}
+  
